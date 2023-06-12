@@ -1,5 +1,27 @@
+#root
+{
+  height: 100vh;
+  background-color: #D2F8DC;
+  background-image: url('../public/assets/pattern.png');
+  background-size: 80px;
+  background-blend-mode: difference;
+  
+
+}
 .App {
   text-align: center;
+  border:1px solid #ccc;
+  max-width: 600px;
+  left: 50%;
+  top: 50%;
+  position: relative;
+  transform: translate(-50%,-50%);
+  background-color: #121113;
+
+  border-radius: 20px;
+
+
+ 
 }
 
 .App-logo {
@@ -35,4 +57,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+textarea 
+{
+  width: 85%;
+  margin: 0 auto;
+  height: 300px;
+  resize: none;
+  border-radius: 20px;
+  padding: 1em;
+}
+@media (min-width:786px)
+{
+  textarea 
+{
+  max-width: 550px;
+  
+}
+}
+
+button 
+{
+  background: #FEF9AA;
+  padding: 1em 2em;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+h1,h4
+{
+ color: #FEF9AA;
+ text-shadow: 1px 1px #fff;
+
 }
